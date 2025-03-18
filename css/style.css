@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body{
+    background-color: rgb(253, 182, 153);
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: italic;
+    margin: 0p 30%;
+    font-size: 24px;
+}
+h2{
+    color: rgb(129, 43, 3);
+}
+p{
+    
+    color: rgb(129, 43, 3);
+ padding-left: 1%;
+    font-family: "Funnel Display", sans-serif;
+    font-optical-sizing: auto;
+    
+}
+div{
+    border: 2px solid rgb(212, 89, 6) ;
+    border-radius: 15px;
+    padding: 3%;
+    font-family: "Funnel Display", sans-serif;
+  font-optical-sizing: auto;
+padding-left: 1%;
+    background-color: rgb(253, 188, 158);
+}
+article,section{
+    font-family: "Funnel Display", sans-serif;
+  font-optical-sizing: auto;
+  padding-left: 1%;
+  mark{
+    color: rgb(37, 2, 2);
+    background-color: aliceblue;
+  }
+ 
+}
+@media only screen and (max-width: 600px){
+    body{
+        background-color: beige;
+        font-size: 110%;
+        padding-left: 2%;
+    }
+    div{
+        padding: 2px;
+    }
+    pre{
+        display: none;
+    }
+    }
+    
